@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./dist/normalize.css">
+    <link rel="stylesheet" href="./dist/style.css">
     <title>Codar.</title>
 </head>
 <body>
     <header class="header">
-        <h1>Codar.</h1>
+        <h1>Codar<span>.</span></h1>
         <nav class="header__nav">
             <ul class="header__nav__ul">
-                <li>Início</li>
-                <li>Serviços</li>
-                <li>Contato</li>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
                 <li class="btn__login"><button>Login</button></li>
             </ul>
         </nav>
     </header>
     
     <div class="container">
-        <div>
-            
-            <div>
-                <p>Alavanque seu negócio com um<span>Website incrível</span></p>
-                <button>Solicitar orçamento</button>
-            </div>
-            
+        
+        
+        <div class="container__budget"> 
+            <p>Alavanque seu negócio com um<span>Website incrível</span></p>
+            <button>Solicitar orçamento</button>
         </div>
+        
         
         
         <div>
@@ -80,9 +83,9 @@
         <div>
             <h3>Redes sociais</h3>
             <ul>
-                <li>facebook</li>
-                <li>instagram</li>
-                <li>twiter</li>
+                <li><i class="fab fa-facebook-square"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-twitter-square"></i></li>
             </ul>
         </div>
     </footer>
